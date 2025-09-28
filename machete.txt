@@ -1,0 +1,12 @@
+Los desplazamientos de bits funcionan de la siguiente manera 
+
+<< desplaza n bits hacia la izquierda lo que seria como multiplicar por 2 en decimal, cuando se llama los bits de mi variable 
+se desplazann lugares a la izquierda y reemplaza con 0. Ejemplo: si tengo uint8_t ej=1 su representacion en binario seria 
+00000001, si hago ej=ej<<1 lo que ahora se ve en ej es 00000010 y ahora ej=2. Eso seria si empiezo desde 1. Si tengo otros bits 
+esto haria que se tenga que calcular el valor nuevo de ej.
+
+>> desplaza n bits hacia la derecha lo que seria como dividir por 2 en decimal. Idem al otro ejemplo pero desplazando 
+a la izquierda.
+
+si utilizo la operacion logica | 1 estaria sumandole 1 bit lo que es quivalente a sumar 1 entero al numero.
+para verificar si un numero es igual a otro puedo utilizar la operacion logica &.
